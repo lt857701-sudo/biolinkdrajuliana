@@ -479,6 +479,10 @@ h1 {
   transform: translate3d(0, 16px, 0);
   animation: rise .85s var(--ease) var(--d, 0s) forwards;
 }
+.reveal:focus-visible {
+  opacity: 1 !important;
+  transform: none !important;
+}
 
 /* ---------- Interação com ponteiro ---------- */
 @media (hover: hover) and (pointer: fine) {
@@ -538,24 +542,12 @@ h1 {
   .brand-name { font-size: 9px; }
   .brand-subtitle { font-size: 6px; }
   .intro { right: 4px; width: min(140px, calc(46vw - 8px)); }
-  .bio-link { gap: 6px; }
-  .link-label { font-size: 13px; }
-  .bio-link:nth-child(3) .link-label { font-size: 11.5px; }
-  .cta-label { font-size: 13px; }
-}
-
-/* Refinamentos mobile — larguras estreitas */
-@media (max-width: 360px) {
-  .bio-content { padding-left: 19px; padding-right: 19px; }
-  .brand-name { font-size: 9px; }
-  .brand-subtitle { font-size: 6px; }
   .content-group { max-width: 240px; margin-right: 12px; }
-  .bio-link { gap: 6px; }
+  .bio-link { gap: 6px; height: 48px; min-height: 48px; }
   .link-label { font-size: 13px; }
   .bio-link:nth-child(3) .link-label { font-size: 11.5px; }
   .cta-label { font-size: 13px; }
   .whatsapp-cta { height: 48px; min-height: 48px; gap: 6px; padding: 5px 10px; }
-  .bio-link { height: 48px; min-height: 48px; }
   .whatsapp-icon { flex-basis: 26px; width: 26px; height: 26px; }
   .whatsapp-icon svg { width: 17px; height: 17px; }
   .bio-links { gap: 5px; }
@@ -565,8 +557,7 @@ h1 {
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .reveal,
-  .line > span {
+  .reveal {
     opacity: 1 !important;
     transform: none !important;
     animation: none !important;
