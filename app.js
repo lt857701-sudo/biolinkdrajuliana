@@ -25,10 +25,10 @@
         event.preventDefault();
         const messages = {
           whatsapp: 'Adicione o número oficial do WhatsApp em links.js para ativar o agendamento.',
-          link1: 'Adicione o endereço de Resultados em links.js.',
-          link2: 'Adicione o endereço da Minha Técnica em links.js.',
-          link3: 'Adicione o endereço de Agendamento em links.js.',
-          link4: 'Adicione o endereço de Localização em links.js.'
+          link1: 'Adicione o endereço de Deep Plane em links.js.',
+          link2: 'Adicione o endereço de Rinoplastia em links.js.',
+          link3: 'Adicione o endereço de Mentoria personalizada em links.js.',
+          link4: 'Adicione o link de avaliação do Google em links.js.'
         };
         showNotice(messages[key] || 'Configure este endereço em links.js.');
       });
