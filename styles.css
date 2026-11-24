@@ -285,13 +285,6 @@ h1 {
 }
 .whatsapp-icon svg { width: 19px; height: 19px; stroke: #fff; }
 .cta-label { font: 500 14px/1 var(--serif); letter-spacing: -.01em; }
-.cta-arrow {
-  margin-left: auto;
-  color: #fff;
-  font: 19px/1 var(--serif);
-  opacity: .9;
-  transition: transform .35s var(--ease), opacity .35s var(--ease);
-}
 
 /* ---------- Links em vidro ---------- */
 .bio-links {
@@ -383,12 +376,6 @@ h1 {
 .link-description--wrap { white-space: normal; }
 .bio-link:nth-child(3) .link-label { max-width: 180px; font-size: 13px; line-height: 1.02; }
 .bio-link:nth-child(3) .link-copy .link-label { max-width: none; font-size: 14.5px; line-height: 1.02; }
-.link-arrow {
-  color: var(--highlight);
-  font: 17px/1 var(--serif);
-  opacity: .85;
-  transition: transform .35s var(--ease), opacity .35s var(--ease);
-}
 
 /* ---------- Rodapé ---------- */
 .bio-footer { 
@@ -435,12 +422,10 @@ h1 {
   border-color: rgba(253, 246, 237, 0.35);
   color: var(--bg);
 }
-.link-label,
-.link-arrow {
+.link-label {
   color: var(--bg);
   text-shadow: none;
 }
-.link-arrow { opacity: 1; }
 @media (hover: hover) and (pointer: fine) {
   .bio-link:hover {
     background: rgba(61, 46, 31, 0.95);
@@ -498,7 +483,6 @@ h1 {
     background: var(--secondary);
     transform: rotate(-6deg) scale(1.05);
   }
-  .bio-link:hover .link-arrow { opacity: 1; transform: translateX(2px); }
   .whatsapp-cta:hover {
     background: linear-gradient(105deg, var(--text) 0%, var(--highlight-strong) 100%);
     border-color: var(--highlight-strong);
@@ -507,7 +491,6 @@ h1 {
   }
   .whatsapp-cta:hover::before { left: 120%; }
   .whatsapp-cta:hover .whatsapp-icon { background: rgba(253, 246, 237, .25); transform: rotate(-6deg); }
-  .whatsapp-cta:hover .cta-arrow { opacity: 1; transform: translateX(2px); }
 }
 .bio-link:active,
 .whatsapp-cta:active { transform: scale(.988); }
@@ -553,7 +536,6 @@ h1 {
   .bio-links { gap: 5px; }
   .link-icon { flex-basis: 28px; width: 28px; height: 28px; }
   .link-icon svg { width: 18px; height: 18px; }
-  .link-arrow { font-size: 14px; }
 }
 
 @media (prefers-reduced-motion: reduce) {
