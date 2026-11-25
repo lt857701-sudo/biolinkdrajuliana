@@ -25,7 +25,7 @@
         event.preventDefault();
         const messages = {
           whatsapp: 'Adicione o número oficial do WhatsApp em links.js para ativar o agendamento.',
-          link1: 'Adicione o endereço de Deep Plane em links.js.',
+          link1: 'Adicione o endereço de Blefaroplastia em links.js.',
           link2: 'Adicione o endereço de Rinoplastia em links.js.',
           link3: 'Adicione o endereço de Mentoria personalizada em links.js.',
           link4: 'Adicione o link de avaliação do Google em links.js.'
