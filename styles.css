@@ -111,7 +111,7 @@ a { color: inherit; -webkit-tap-highlight-color: transparent; }
   content: "";
   position: absolute;
   z-index: -1;
-  inset: -58px -74px -46px -64px;
+  inset: -24px;
   background: radial-gradient(ellipse at 70% 48%, rgba(39, 29, 22, .28) 0%, rgba(39, 29, 22, .16) 38%, rgba(39, 29, 22, .07) 66%, transparent 100%);
   filter: blur(14px);
   pointer-events: none;
