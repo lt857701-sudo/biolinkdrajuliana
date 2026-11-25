@@ -48,8 +48,7 @@ a { color: inherit; -webkit-tap-highlight-color: transparent; }
 }
 
 /* ---------- Fotografia de fundo ---------- */
-.photo-layer,
-.photo-wash {
+.photo-layer {
   position: absolute;
   inset: 0;
   pointer-events: none;
@@ -67,18 +66,6 @@ a { color: inherit; -webkit-tap-highlight-color: transparent; }
 }
 @media (max-height: 900px) {
   .photo-img { object-position: 100% 20%; }
-}
-.photo-wash {
-  z-index: 0;
-  background:
-    linear-gradient(90deg, rgba(61, 46, 31, 0) 34%, rgba(61, 46, 31, .12) 61%, rgba(61, 46, 31, .34) 100%),
-    linear-gradient(180deg,
-      rgba(61, 46, 31, .15) 0%,
-      rgba(61, 46, 31, .05) 25%,
-      rgba(61, 46, 31, 0) 45%,
-      rgba(61, 46, 31, .08) 65%,
-      rgba(61, 46, 31, .25) 100%);
-  display: block;
 }
 
 /* ---------- Conteúdo ---------- */
