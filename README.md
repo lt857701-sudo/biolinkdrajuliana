@@ -9,7 +9,7 @@ Página estática de link da bio em formato mobile fixo, feita com HTML, CSS e J
 - `app.js` — ativa os destinos configurados ou mostra um aviso quando faltam endereços.
 - `links.js` — endereços oficiais editáveis.
 - `assets/favicon.svg` — ícone da página.
-- `assets/fundo capa.png` — foto de fundo usada pela página.
+- `assets/doutora.jpeg` — foto de fundo usada pela página.
 
 ## Configurar os links antes de publicar
 
